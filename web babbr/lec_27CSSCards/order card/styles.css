@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* min-height: 1000px; */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.card img{
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* padding: 20px; */
+    width: 80%;
+    text-align: justify;
+}
+
+#amountBox{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(153, 191, 191);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#leftBox{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+
+.imgBox img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.rightBox{
+
+}
+#paymentButton{
+    width: 80%;
+    height: 9%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#paymentButton:hover{
+    background-color: chartreuse;
+}
+
+#cancelBox a{
+    text-decoration: none;
+    color: rgb(51, 47, 47);
+    font-weight: bold;
+    font-size: large;
+}

@@ -1,0 +1,16 @@
+p{
+    color: brown;
+}
+#article1{
+    background-color: greenyellow;
+}
+.paraClass{
+    background-color: yellow;
+}
+
+p,article{
+    width: 500px;
+}
+p.paraClass{
+    text-align: justify;
+}
